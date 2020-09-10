@@ -1,8 +1,13 @@
 # Robustness of Meta Matrix Factorization Against Decreasing Privacy Budgets
 
-This repository includes python scripts and ipython-notebooks necessary for conducting experiments utilizing MetaMF and NoMetaMF in the setting of decreasing privacy budgets. Additionally, it provides code for analyzing the user groups in the todo dataset, available via Zenodo: todo
+This repository includes python scripts and ipython-notebooks necessary for conducting experiments utilizing MetaMF and NoMetaMF in the setting of decreasing privacy budgets. Additionally, it provides code for analyzing the user groups in five different datasets available via Zenodo:
+* Douban User Groups, todo
+* Hetrec-MovieLens User Groups, todo
+* MovieLens 1M User Groups, todo
+* Ciao User Groups, todo
+* Jester User Groups, todo
 
-## Files
+## Usage
 To reproduce our results, the ipython-notebooks must be executed in following order:
 
 1. data/jester/Generation.ipynb: Preprocessing of the Jester dataset utilized in our studies.
