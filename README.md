@@ -1,19 +1,19 @@
 # Robustness of Meta Matrix Factorization Against Decreasing Privacy Budgets
 
-This repository includes python scripts and ipython-notebooks necessary for conducting experiments utilizing MetaMF and NoMetaMF in the setting of decreasing privacy budgets. The five utilized datasets, i.e., Douban [1], Hetrec-MovieLens [2], MovieLens 1M [3], Ciao [4] and Jester [5] are given within this repository. Additionally, we provide code for analyzing the user groups in these five datasets, which are available via Zenodo: https://doi.org/10.5281/zenodo.4031011.
+This repository includes python scripts and ipython-notebooks necessary for conducting experiments utilizing MetaMF and NoMetaMF in the setting of decreasing privacy budgets. The five utilized datasets, i.e., Douban [1], Hetrec-MovieLens [2], MovieLens 1M [3], Ciao [4] and Jester [5] are given in this repository. Additionally, we provide code for constructing and analyzing three user groups of these datasets with a low, medium and high number of ratings (available via Zenodo: https://doi.org/10.5281/zenodo.4031011).
 
 
 ## Usage
-To reproduce our results, the ipython-notebooks must be executed in following order:
+To reproduce our results, the ipython-notebooks must be executed in the following order:
 
-1. Initialize Folder Structure.ipynb: Sets of a hierarchy of folder for saving the experimental results.
+1. Initialize Folder Structure.ipynb: Sets up a hierarchy of folders for saving the experimental results.
 2. data/jester/Generation.ipynb: Preprocessing of the Jester dataset utilized in our studies.
 3. Identification of User Groups.ipynb: Identification of users with a low, medium or high number of ratings.
-4. Train and Evaluate Models.ipynb: Train and evaluate our models (i.e., MetaMF and NoMetaMF) on the datasets provided. 
+4. Train and Evaluate Models.ipynb: Train and evaluate our models (i.e., MetaMF and NoMetaMF) on the provided datasets and user groups. 
 5. Visualize Results.ipynb: Visualize results of our experiments.
 6. Test Personalization and Collaboration.ipynb: Visualize the item embeddings and weights of the rating prediction models.
 
-Furthermore, MetaMF.py includes the implementation of MetaMF and our extension: NoMetaMF. However, MetaMF.py does not need to be run.
+Furthermore, MetaMF.py includes the implementation of MetaMF and our extension NoMetaMF. However, MetaMF.py does not need to be run.
 
 ## Requirements
 * Python 3
