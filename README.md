@@ -30,7 +30,11 @@ Furthermore, MetaMF.py includes the implementation of MetaMF and our extension: 
 
 ## References
 [1] Hu, L., Sun, A., Liu, Y.: Your neighbors affect your ratings: on geographical neighborhood influence to rating prediction. In: SIGIR’14 (2014)
+
 [2] Cantador, I., Brusilovsky, P., Kuflik, T.: Second international workshop on information heterogeneity and fusion in recommender systems (hetrec2011). In: RecSys’11(2011)
+
 [3] Harper, F. M., Konstan, J. A.: The movielens datasets: History and context. ACM Transactions on Interactive Intelligent Systems (TIIS) 5(4), 1–19 (2015)
+
 [4] Guo, G., Zhang, J., Thalmann, D., Yorke-Smith, N.: Etaf: An extended trust antecedents framework for trust prediction. In: ASONAM’14 (2014)
+
 [5] Goldberg, K., Roeder, T., Gupta, D., Perkins, C.:  Eigentaste: A constant time collaborative filtering algorithm. Information Retrieval 4(2), 133–151 (2001)
